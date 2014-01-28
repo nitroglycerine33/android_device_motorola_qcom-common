@@ -67,14 +67,14 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
+    <bool name="config_intrusiveBatteryLed">true</bool>-->
 
-    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+    <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors 
+    <bool name="config_multiColorBatteryLed">true</bool>-->
 
-    <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">true</bool>
+    <!-- Workaround for devices with broken keyboards 
+    <bool name="config_forceDisableHardwareKeyboard">true</bool>-->
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
@@ -139,7 +139,7 @@
         <item>0</item>
     </integer-array>
 
-    <integer name="config_buttonBrightnessSettingDefault">0</integer>
+  <!--<integer name="config_buttonBrightnessSettingDefault">0</integer>-->
 
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
@@ -219,8 +219,8 @@
     <!-- Our amoled doesn't animate well. -->
     <bool name="config_animateScreenLights">false</bool> 
 
-    <!-- We dont have different firmware for wifi modes, prevent reloading it -->
-    <bool name="config_wifiApFirmwareReload">false</bool>
+    <!-- We dont have different firmware for wifi modes, prevent reloading it 
+    <bool name="config_wifiApFirmwareReload">false</bool>-->
 
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
         on the headphone/microphone jack. When false use the older uevent framework. -->
@@ -240,11 +240,11 @@
             8 - Assistant (search)
             16 - App switch
         For example, a device with Home, Back and Menu keys would set this
-        config to 7. -->
-    <integer name="config_deviceHardwareKeys">0</integer>
+        config to 7. 
+    <integer name="config_deviceHardwareKeys">0</integer>-->
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!-- Device supports LED flashlight 
+    <bool name="config_enableTorch">true</bool>-->
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
